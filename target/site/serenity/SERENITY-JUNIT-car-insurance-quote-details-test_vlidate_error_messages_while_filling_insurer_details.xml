@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Car Insurance Quote details Test" skipped="0" tests="1" time="19.37" timestamp="2020-03-80 01:44:35"><testcase name="Vlidate error messages while filling insurer details"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#continueButton&quot;}&#10;  (Session info: chrome=80.0.3987.149)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'DNA.local', ip: 'fe80:0:0:0:106a:f262:be27:b466%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_121'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/td/fmx9sjg1557...}, goog:chromeOptions: {debuggerAddress: localhost:65525}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e5264dd0a7eddf026a7f88118a569219&#10;*** Element info: {Using=css selector, value=#continueButton}" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"css selector","selector":"#continueButton"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DNA.local', ip: 'fe80:0:0:0:106a:f262:be27:b466%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/td/fmx9sjg1557...}, goog:chromeOptions: {debuggerAddress: localhost:65525}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e5264dd0a7eddf026a7f88118a569219
+*** Element info: {Using=css selector, value=#continueButton}</error><system-err>no such element: Unable to locate element: {"method":"css selector","selector":"#continueButton"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DNA.local', ip: 'fe80:0:0:0:106a:f262:be27:b466%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/td/fmx9sjg1557...}, goog:chromeOptions: {debuggerAddress: localhost:65525}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e5264dd0a7eddf026a7f88118a569219
+*** Element info: {Using=css selector, value=#continueButton}
+com.SeleniumTest.driver.element.DriverActions.clickElement(DriverActions.java:16)
+com.SeleniumTest.pages.AvivaQuotePage.clickContine(AvivaQuotePage.java:42)
+com.SeleniumTest.StepDefinitions.AvivaGetQuoteStepDefs.iClickOnContinueButton(AvivaGetQuoteStepDefs.java:40)
+✽.And I click on continue button(AvivaPersonalDetails.feature:29)
+</system-err></testcase></testsuite>

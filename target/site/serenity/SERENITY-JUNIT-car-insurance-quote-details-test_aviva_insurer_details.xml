@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Car Insurance Quote details Test" skipped="0" tests="1" time="20.78" timestamp="2020-03-77 09:02:06"><testcase name="Aviva Insurer details"><error message="Cannot locate element with text: 8 Antelope Way, CAMBRIDGE, , , CB1 9GT&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'DNA.local', ip: 'fe80:0:0:0:106a:f262:be27:b466%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_121'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Cannot locate element with text: 8 Antelope Way, CAMBRIDGE, , , CB1 9GT
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DNA.local', ip: 'fe80:0:0:0:106a:f262:be27:b466%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_121'
+Driver info: driver.version: unknown</error><system-err>Cannot locate element with text: 8 Antelope Way, CAMBRIDGE, , , CB1 9GT
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DNA.local', ip: 'fe80:0:0:0:106a:f262:be27:b466%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+com.SeleniumTest.driver.element.DriverActions.selectOptionByText(DriverActions.java:46)
+com.SeleniumTest.pages.AvivaQuotePage.selectAddress(AvivaQuotePage.java:38)
+com.SeleniumTest.StepDefinitions.AvivaGetQuoteStepDefs.I_fill_following_personal_details(AvivaGetQuoteStepDefs.java:28)
+✽.And I fill following personal details(AvivaPersonalDetails.feature:6)
+</system-err></testcase></testsuite>
